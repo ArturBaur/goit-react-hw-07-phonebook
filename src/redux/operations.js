@@ -2,7 +2,6 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 axios.defaults.baseURL = 'https://6586e7d0468ef171392ef534.mockapi.io/';
-//axios.defaults.baseURL = 'https://647dc2cfaf984710854a42ef.mockapi.io/';
 
 export const fetchContacts = createAsyncThunk(
   'contacts/FetchAll',
